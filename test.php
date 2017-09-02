@@ -159,7 +159,7 @@
 			}
 
 			$get='"image.php?score=' . urlencode($score) . '&fio=' . urlencode($_POST['fio']) . '"';
-			?><img src=<?=$get?>><?
+			?><img src=<?=$get?>><?php
 		}
 
 		?>
@@ -167,7 +167,7 @@
 		</form> 
 		</body>
 		</html>
-		<?
+		<?php
 	}
 
 	echo "<p><a href='admin.php'>возврат к загрузке тестов</a></p>";
